@@ -1,0 +1,433 @@
+:root {
+  --main-color: #06945b;
+  --section-color: #ffc699;
+  --sec-color: #83f3b8;
+  --btn-color: #496efd;
+  --yel-color: #fae053;
+}
+
+body {
+  font-family: "Roboto", "sans-serif";
+  /* margin: 0; */
+}
+
+.head {
+  padding: 0px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: white;
+}
+
+.head a {
+  text-decoration: none;
+}
+
+.head img {
+  width: 150px;
+  height: 75px;
+}
+
+.main-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  flex-direction: row;
+}
+
+.sell-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.sell-group a,
+.links a:not(:last-child) {
+  color: black;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.free {
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.landing {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.landing p {
+  color: gray;
+  font-size: 15px;
+  width: 500px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.landing a {
+  background-color: var(--main-color);
+  padding: 10px 40px;
+  color: white;
+  border: 1px solid black;
+  border-radius: 15px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.landing img {
+  margin: 20px 0px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.item .ico {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.description {
+  color: gray;
+}
+
+.sell,
+.gsell,
+.msell {
+  margin-top: 55px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.sell .text,
+.gsell .text,
+.msell .text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 49px;
+}
+
+.anywhere h4 {
+  font-size: 45px;
+}
+
+.anywhere .any-description {
+  max-width: 80%;
+  color: gray;
+}
+
+.anywhere a {
+  background-color: var(--section-color);
+  border: 1px solid black;
+  padding: 10px 40px;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  margin: 15px 0px;
+  border-radius: 50px;
+}
+
+.plats {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plats .title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.plats .plat-description {
+  color: gray;
+}
+
+.bar {
+  background-color: var(--section-color);
+  padding: 20px 60px;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+.bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 150px;
+}
+
+.bar .main-text .text-description {
+  color: #50514b;
+  /* max-width: 400px; */
+}
+
+.char {
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  gap: 15px;
+}
+
+.char img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.sell .text img {
+  position: absolute;
+  top: 1134px;
+  right: -1px;
+}
+
+.char p {
+  font-weight: bold;
+}
+
+.bar .rate {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+.anywhere {
+  width: 60%;
+}
+
+.gsell a,
+.gsell .bar {
+  background-color: var(--sec-color);
+}
+
+.msell a,
+.msell .bar {
+  background-color: var(--btn-color);
+}
+
+.gsell .text img {
+  position: absolute;
+  top: 1820px;
+  left: -30px;
+}
+
+.msell .text img {
+  position: absolute;
+  top: 2610px;
+  right: -49px;
+}
+
+.gsection {
+  position: relative;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: 100px auto;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.left {
+  flex: 1;
+}
+
+.left h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.left p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.stat {
+  margin-top: 40px;
+}
+
+.right {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.stat h1 {
+  font-size: 68px;
+  margin: 0;
+}
+
+.stat p {
+  font-size: 14px;
+  color: #777;
+}
+
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+}
+
+.card {
+  background: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 25px;
+  width: 300px;
+}
+
+.icon {
+  background-color: var(--yel-color);
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  border: 2px solid black;
+}
+
+.icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.card a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 60px;
+}
+
+.csection {
+  position: relative;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 40px;
+  max-width: 1100px;
+  margin: 40px auto;
+}
+
+.ccontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+}
+
+.ctext h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.caction {
+  text-align: center;
+}
+
+.cbtn {
+  background-color: var(--yel-color);
+  color: black;
+  padding: 15px 30px;
+  border: 2px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.caction p {
+  font-size: 13px;
+  color: #777;
+  margin-top: 10px;
+}
+
+ .footer {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 40px;
+      padding: 60px;
+      background-color: #000;
+    }
+
+    .footer h3 {
+      text-transform: uppercase;
+      font-size: 14px;
+      color: #ccc;
+      margin-bottom: 15px;
+      letter-spacing: 1px;
+    }
+
+    .footer ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer ul li {
+      margin-bottom: 10px;
+      font-size: 14px;
+      color: white;
+    }
+
+    .footer ul li:hover {
+      cursor: pointer;
+    }
+
+    .footer .latest-blog li {
+      font-weight: 300;
+      line-height: 1.6;
+    }
